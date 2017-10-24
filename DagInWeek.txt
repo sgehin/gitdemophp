@@ -1,1 +1,14 @@
-dagkalender
+<?php
+    $DagVanDeWeek = array("zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag");
+       
+           
+        for($i = 0; $i < count($DagVanDeWeek);$i++){
+            
+            echo $DagVanDeWeek [$i];
+            echo "<br>";
+        }
+	
+
+	?>
+
+
